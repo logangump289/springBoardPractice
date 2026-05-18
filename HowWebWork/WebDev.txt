@@ -1,0 +1,33 @@
+What is HTTP?
+Hyper Text Transfer Proticol dictates how client gets, or sends, data from/to a server.
+
+What is URL?
+The URL is the address for any website.
+
+What is DNS?
+DNS turns readable URLs into IP addresses.
+
+What is query string?
+Allows you to to key-value pairs into the URL.
+
+GET- get information from the server.
+Post- post data to the server.
+
+What is HTTP request?
+The HTTP request is a request to the server from the client us HTTP protocol.
+
+What is an HTTP response?
+An HTTP response is a response from a server to a client which follows the HTTP protocol.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Headers provide additional information about the request or the response. Here are some examples:
+Content-Type
+cookie
+Accept
+
+What happens when you type a URL in a browser?
+Your browser “resolves” the name into an IP address using DNS
+Your browser makes a request to that IP address, including headers
+The server sends a response
+The browser makes a DOM from that HTML, and finds any other resources needed
+The browser makes separate HTTP requests for those resources and receives response from the server for each
